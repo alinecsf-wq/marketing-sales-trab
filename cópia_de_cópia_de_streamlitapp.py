@@ -184,7 +184,7 @@ with aba_categoricas:
     col_a, col_b = st.columns(2)
 
     with col_a:
-        st.subheader("3.1 Variável "Influencer"")
+        st.subheader("3.1 Variável Influencer")
         tb_inf = tabela_freq(df_filtrado["Influencer"], "Influencer")
         st.dataframe(tb_inf, use_container_width=True, hide_index=True)
 
@@ -198,7 +198,7 @@ with aba_categoricas:
         st.plotly_chart(fig_inf, use_container_width=True)
 
     with col_b:
-        st.subheader("3.2 Variável "TV"")
+        st.subheader("3.2 Variável TV")
         tb_tv = tabela_freq(df_filtrado["TV"], "TV")
         st.dataframe(tb_tv, use_container_width=True, hide_index=True)
 
