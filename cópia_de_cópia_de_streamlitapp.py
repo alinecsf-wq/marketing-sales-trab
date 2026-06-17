@@ -67,8 +67,6 @@ st.sidebar.download_button(
     mime="text/csv",
 )
 
-with st.sidebar:
-    st.title("Filtros e Informações")
     st.divider() # Adiciona uma linha divisória fina para organizar
     st.subheader("Documentação do Projeto")
     # Botão para o Google Colab
