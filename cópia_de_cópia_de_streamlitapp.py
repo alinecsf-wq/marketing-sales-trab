@@ -481,7 +481,7 @@ with aba_boxplot:
     st.markdown("---")
     st.subheader("Interpretações fixas dos boxplots")
 
-    st.markdown("**Boxplots com variável "Influencer":**")
+    st.markdown("**Boxplots com variável Influencer:**")
     st.markdown("""
 - **Sales por Influencer:** As quatro caixas são praticamente idênticas em tamanho, posição e
   mediana. O tipo de influenciador, sozinho, não diferencia os resultados de vendas.
@@ -493,7 +493,7 @@ with aba_boxplot:
   apresentam outliers acima da haste superior.
     """)
 
-    st.markdown("**Boxplots com variável "TV":**")
+    st.markdown("**Boxplots com variável TV:**")
     st.markdown("""
 - **Sales por TV:** Diferença mais evidente entre grupos. High tem caixa compacta com resultados
   concentrados entre 270–350 mi. Low tem a caixa mais larga, com resultados altamente variáveis.
