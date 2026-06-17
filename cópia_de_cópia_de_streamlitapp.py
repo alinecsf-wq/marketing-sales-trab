@@ -61,7 +61,7 @@ st.sidebar.metric("Total na base", len(df))
 
 csv = df_filtrado.to_csv(index=False).encode("utf-8")
 st.sidebar.download_button(
-    label="⬇️ Baixar dados filtrados (.csv)",
+    label="⬇️ Baixar dados (.csv)",
     data=csv,
     file_name="dados_filtrados.csv",
     mime="text/csv",
@@ -83,16 +83,16 @@ st.markdown("---")
 (aba_intro, aba_categoricas, aba_numericas, aba_centro,
  aba_dispersao, aba_posicao, aba_boxplot, aba_correlacao,
  aba_scatter, aba_conclusao) = st.tabs([
-    "1 · Introdução",
-    "2 · Variáveis Categóricas",
-    "3 · Variáveis Numéricas",
-    "4 · Medidas de Centro",
-    "5 · Medidas de Dispersão",
-    "6 · Posição Relativa",
-    "7 · Boxplots",
-    "8 · Correlação & Covariância",
-    "9 · Dispersões",
-    "10 · Conclusão",
+    "Introdução",
+    "Variáveis Categóricas",
+    "Variáveis Numéricas",
+    "Medidas de Centro",
+    "Medidas de Dispersão",
+    "Posição Relativa",
+    "Boxplots",
+    "Correlação & Covariância",
+    "Dispersões",
+    "Conclusão",
 ])
 
 # ================================================================
