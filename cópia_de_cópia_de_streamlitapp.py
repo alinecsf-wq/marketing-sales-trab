@@ -73,14 +73,6 @@ with st.sidebar:
         "🚀 Abrir Notebook no Google Colab", 
         "https://colab.research.google.com/drive/1EMwTs_kbhG6cUvX2In_vOH6yhXiAWXKX?usp=sharing"
     )
-    st.divider() # Adiciona uma linha divisória fina para organizar
-    st.subheader("Documentação do Projeto")
-    # Botão para o Google Colab
-    st.link_button(
-        "🚀 Abrir Notebook no Google Colab", 
-        "https://colab.research.google.com/drive/1EMwTs_kbhG6cUvX2In_vOH6yhXiAWXKX?usp=sharing"
-    )
-    
 # -----------------------------------------------------------
 # 4. CABEÇALHO
 # -----------------------------------------------------------
